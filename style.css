@@ -1,0 +1,201 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+  color: #000000;
+}
+
+#topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  background-color: #fff;
+}
+
+#inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 80px 100px;
+}
+
+#inicio-texto {
+  max-width: 500px;
+}
+#inicio-texto h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+#inicio-texto p {
+  color: #666;
+  line-height: 1.6;
+}
+
+#btn {
+  background-color: #f55858;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#foto-perfil {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+#recentes {
+  background-color: #cbe6ee;
+  padding: 60px 100px;
+}
+
+#recentess {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#caixa {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#postagem1 {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+#postagem2 {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 50%;
+}
+#trabalhos {
+  background-color: #ffffff;
+  padding: 60px 100px;
+}
+#trabalhos img {
+  width: 246px;
+  border-radius: 6px;
+}
+#trabalho1 {
+  display: flex;
+  gap: 20px;
+}
+#trabalho2 {
+  display: flex;
+  gap: 20px;
+}
+#trabalhos span {
+  background-color: #000000;
+  color: #fff;
+  padding: 4px;
+  border-radius: 12px;
+  font-size: 13px;
+  margin-right: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skills {
+  background-color: #cbe6ee;
+  padding: 60px 100px;
+  padding: 60px 100px;
+  
+}
+
+#skillss{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#sk1{
+    display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+#sk11 {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 50%;
+  text-align: center;
+}
+
+#sk22 {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 50%;
+  text-align: center;
+}
+#rodape {
+    
+    color: rgb(17, 17, 17);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#mg1{
+    position: relative;
+    object-fit: cover;
+}
+@media (max-width: 992px) {
+  #inicio {
+    padding: 60px 50px;
+  }
+  #recentes,
+  #trabalhos,
+  #skills {
+    padding: 50px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #inicio {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #foto-perfil {
+    width: 140px;
+    height: 140px;
+  }
+
+  #inicio-texto h2 {
+    font-size: 26px;
+  }
+
+  #caixa,
+  #sk1 {
+    flex-direction: column;
+  }
+
+  #trabalho1,
+  #trabalho2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #trabalhos img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  #skills p {
+    text-align: center;
+  }
+}
